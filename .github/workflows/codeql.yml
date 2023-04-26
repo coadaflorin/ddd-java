@@ -24,7 +24,7 @@ jobs:
       security-events: write
     
     env:
-      CODEQL_EXTRACTOR_JAVA_RUN_ANNOTATION_PROCESSORS=true
+      CODEQL_EXTRACTOR_JAVA_RUN_ANNOTATION_PROCESSORS: true
 
     strategy:
       fail-fast: false
